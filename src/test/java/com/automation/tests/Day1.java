@@ -46,6 +46,8 @@ public class Day1 {
         //we need to provide 2 parameters: URL of appium servers and desired capabilities
         // in desired capabilities we specify device and  application to test information
 
+       // driver=new AppiumDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"),desiredCapabilities);
+
         driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
         Thread.sleep(3000);
 
