@@ -111,6 +111,7 @@ public class Day1 {
     public void test2() throws Exception{
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "Android");
+     //   desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "7.0");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_2");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
